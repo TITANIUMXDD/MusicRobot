@@ -2,7 +2,7 @@ pyrogram
 TgCrypto
 py-tgcalls
 python-dotenv
-
+pytgcalls
 youtube_search_python
 requests
 aiohttp
