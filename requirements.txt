@@ -2,7 +2,6 @@ pyrogram
 TgCrypto
 py-tgcalls==0.8.1
 python-dotenv
-pytgcalls
 youtube_search_python
 requests
 aiohttp
