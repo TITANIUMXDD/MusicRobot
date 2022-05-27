@@ -23,6 +23,7 @@ from PIL import Image, ImageFont, ImageDraw
 from pytgcalls.exceptions import NoActiveGroupCall, GroupCallNotFound
 from pytgcalls.types.input_stream import InputAudioStream, InputStream
 from pytgcalls import StreamType
+from pytgcalls.types.input_stream import AudioPiped
 
 def transcode(filename):
     ffmpeg.input(filename).output("input.raw", format='s16le', acodec='pcm_s16le', ac=2, ar='48k').overwrite_output().run() 
