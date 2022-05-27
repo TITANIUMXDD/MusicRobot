@@ -288,7 +288,7 @@ async def play(_, message: Message):
         return await lel.delete()
     else:
         callsmusic.pytgcalls.join_group_call(
-                message.chat_id,
+                message.chat.id,
                 InputStream(
                     InputAudioStream(
                         file_path,
